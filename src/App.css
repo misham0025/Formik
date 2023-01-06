@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  width: 500px;
+  height: max-content;
+  background-color: rgb(226, 228, 230);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 20px;
+  color: rgb(10, 94, 168);
+}
+
+.input {
+  margin: 20px 10px;
+}
+
+.button {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.required {
+  color: red;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper2 {
+  width: 100%;
+  height: max-content;
+  background: rgb(241, 238, 238);
+}
+
+.first {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formik {
+  width: 500px;
+  height: 400px;
+  background-color: rgb(220, 221, 221);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.task {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.priority {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  color: rgb(10, 94, 168);
+
+}
+
+.table {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.dltBtn {
+  border: none;
+  color: #fff;
+  margin: 0px 5px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  background: red;
+}
+
+.ediBtn {
+  border: none;
+  background: rgb(18, 180, 192);
+  color: #fff;
+  margin: 0px 5px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+.logout{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.link{
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.link:hover{
+  color: #fff;
+}
+.ediBtn:hover{
+  color: #fff;
+}
