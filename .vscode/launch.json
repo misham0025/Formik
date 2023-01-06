@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://git config --global user.email \"misham.john@kprinfo.com\"",
+            "request": "launch",
+            "url": "http://git config --global user.email \"misham.john@kprinfo.com\""
+        }
+    ]
+}
