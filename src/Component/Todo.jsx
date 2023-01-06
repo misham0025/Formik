@@ -64,6 +64,7 @@ function Todo() {
         initialValues: {
             task: '',
             date: '',
+            
             priority: ''
 
         },
